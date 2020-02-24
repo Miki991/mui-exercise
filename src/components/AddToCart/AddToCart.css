@@ -1,0 +1,11 @@
+.article-cart-wrapper button i {
+    margin-right: 5px;
+}
+
+
+/* RESPONSIVE */
+@media (min-width: 981px) {
+    .article-cart-header {
+        margin-right: 30px;
+    }
+}

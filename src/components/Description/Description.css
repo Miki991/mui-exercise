@@ -1,0 +1,67 @@
+.description {
+    margin: 0;
+    background-color: #f3f1ef;
+    padding: 3.2rem 0;
+}
+
+.description div.desc {
+    margin-bottom: 40px;
+}
+
+.description h4 {
+    margin-bottom: 0.5em;
+}
+
+.description .MuiPaper-root h4 {
+    border-bottom: 1px solid #f3f1ef;
+    padding: 0 0 1rem 0;
+}
+
+.description .price-breaks-wrapper {
+    margin-top: 2.5rem;
+}
+
+.description p {
+    margin: 1em 0 3px;
+    color: #6c7a89;
+}
+
+.description ul {
+    list-style-position: inside;
+}
+
+.description ul.attachments-list {
+    list-style-type: none;
+}
+
+.description ul.attachments-list i::before {
+    font-size: 12px;
+}
+
+.description ul.order-info-list {
+    margin-top: 1rem;
+}
+
+.description li span.ftr {
+    color: #6c7a89;
+}
+
+.description mark.keyword {
+    background-color: #bfbfbf;
+    text-transform: uppercase;
+    color: white;
+    margin: 2px 0;
+    padding: 3px 8px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.description mark.keyword:not(:last-of-type) {
+    margin-right: 5px;
+}
+
+.description mark.keyword:hover {
+    opacity: .8;
+}
